@@ -1,0 +1,81 @@
+.joey {
+    float:right;
+}
+
+
+body {
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightslategray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rebeccapurple;
+}
+
+h4 {
+    float: left;
+    position: absolute;
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.foto1 {
+    padding: 5px;
+    float: left;
+}
+
+.foto2 {
+    float: left;
+    padding: 10px;
+}
+
+.foto3 {
+    float: left;
+    padding: 10px;
+}
+
+.tekst {
+    font-size: 18px;
+    padding: 20px;
+    float: left;
+    width: 30%
+}
+
+.tekst2 {
+    font-size: 18px;
+    float: left;
+    width: 25%;
+    marging-left: 30px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
