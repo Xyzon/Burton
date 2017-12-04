@@ -1,0 +1,60 @@
+/*!*body {*!*/
+    /*background-image: url("../img/loginwp.jpg");*/
+    /*color: white;*/
+/*}*/
+
+body {
+    background-image: url("../img/loginwp.jpg");
+    color: white;
+   background-color: cornflowerblue;
+    padding:10px;
+}
+
+form ul {
+    list-style-type: none;
+    padding:0;
+}
+form ul li {
+    padding:10px;
+}
+form ul li input {
+    position: absolute;
+    left:150px;
+}
+
+.ogen {
+    position: absolute;
+    left:150px;
+}
+
+.geslacht {
+    padding: 10px;
+    margin-left:110px;
+}
+
+.datum {
+    list-style-type: none;
+    padding:10px;
+}
+
+geboortedatum {
+    float: right;
+}
+
+textarea {
+    margin-left: 30px;
+}
+
+.eten {
+    float: right;
+    margin-right: 1200px;
+}
+
+.body2 {
+    float:left;
+}
+
+.button {
+float: right;
+    margin-top: 400px;
+}

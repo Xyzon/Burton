@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+    <link rel="stylesheet" href="css/formcss.css">
+
+</head>
+<body>
+<form action="formtest.php" method="post">
+
+<header>
+    <h1>Voorbeeldformulier</h1>
+</header>
+<div class="body2">
+    <form>
+        <ul>
+            <li>
+                Voornaam:
+                <input name="voornaam" type="text">
+            </li>
+        </ul>
+        <ul>
+            <li>
+                Tussenvoegsel
+                <input name="tussenvoegsel" type="text">
+
+
+            </li>
+        </ul>
+        <ul>
+            <li>
+                Achternaam
+                <input name="achternaam" type="text">
+            </li>
+        </ul>
+    </form>
+    <form>
+        <div class="geslacht">
+        <input type="radio" name="gender" value="man" checked> Man<br>
+        <input type="radio" name="gender" value="vrouw"> Vrouw<br>
+        </div>
+<div class="ogen">
+        <select name="ogen">
+            <option value="groen">groen</option>
+            <option value="blauw">blauw</option>
+            <option value="bruin">bruin</option>
+            <option value="grijs">grijs</option>
+        </select>
+
+
+</div>
+<ul>
+    <li>
+        <br>
+        <label for= "Datum: ">Datum</label>
+        <input type="date" name="geboortedatum" />
+    </li>
+</ul>
+    </form>
+<div class="textarea">
+    <textarea name="message" rows="7" cols="32"></textarea>
+</div>
+</div>
+
+    <div class="eten">
+    <fieldset>
+        <legend>Eten</legend>
+        <div>
+            <input type="checkbox" id="Hamburger" name="eten" value="Hamburger">
+            <label for="Hamburger">Pizza</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Pizza" name="eten" value="Pizza">
+            <label for="Pizza">Pizza</label>
+            <div>
+            <input type="checkbox" id="Spareribs" name="eten" value="Spareribs">
+            <label for="Spareribs">Spareribs</label>
+            </div>
+        </div>
+    </fieldset>
+    </div>
+<footer>
+<div class="button">
+    <button>Annuleer</button>
+    <button type="submit" method="post">Okay</button>
+</div>
+</footer>
+</form>
+</header>
+</body>
+</html>
